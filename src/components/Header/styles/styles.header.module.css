@@ -2,13 +2,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
   background-image: url(../../../assests/header/headerBackground.jpg);
   background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: center top;
+  background-size: contain;
+  /* background-position: center top; */
   max-width: 100vw;
-  height: 45vh;
+  height: 65vh;
 }
 
 .header__navigation {
@@ -23,7 +22,7 @@
 .link__elements__styling {
   color: #5bb346;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 2, 5vh;
+  font-size: 150%;
   text-transform: capitalize;
   text-decoration: none;
 }
@@ -36,7 +35,6 @@
 }
 .link__elements a::after {
   background-color: #5bb346;
-
   border-radius: 100px;
   content: "";
   display: block;
@@ -60,4 +58,13 @@
   object-fit: contain;
 }
 .header__contact {
+}
+@media screen and (min-width: 200px) and (max-width: 1420px) {
+  .link__elements {
+    display: none;
+  }
+  .Container {
+    background-size: cover;
+    background-position: center top;
+  }
 }

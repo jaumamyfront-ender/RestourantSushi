@@ -1,5 +1,6 @@
 import React from "react";
 import classes from "./styles/styles.subheader.module.css";
+import AcrobatLogo from "../../assests/header/acrobat-reader.png";
 export default function SubHeader(props) {
   let receivedData = props.info.map((newarray) => (
     <div className={classes.container}>
@@ -17,7 +18,10 @@ export default function SubHeader(props) {
       <div className={classes.styles__number}>
         <button>{newarray.numberOne}</button>
         <button>{newarray.numberSecond}</button>
-        <button>{newarray.documents}</button>
+        <button>
+          <img src={AcrobatLogo} alt="/" />
+          {newarray.documents}
+        </button>
       </div>
     </div>
   ));
