@@ -102,3 +102,18 @@ info={props.store.state.HeaderInfoContact}
         <p>{props.documents}</p>
       </div>
     </div>
+    =======================
+      
+    ===============
+      <Elements
+      title={newarray.title}
+      street={newarray.street}
+      city={newarray.city}
+      hours={newarray.hours}
+      days={newarray.days}
+      number={newarray.number}
+      documents={newarray.documents}
+    />
+    ==========================
+  
+======================================

@@ -1,4 +1,15 @@
-.first h1 {
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.styles__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: aliceblue;
+}
+.styles__info h1 {
   color: #5bb346;
   font-size: 3vh;
   line-height: 60px;
@@ -7,4 +18,31 @@
   text-transform: uppercase;
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
   margin-bottom: 15px;
+}
+.styles__info p {
+}
+.first {
+}
+.first span {
+  margin-bottom: 15px;
+}
+.styles__number {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.styles__number button {
+  width: 130px;
+  height: 50px;
+  margin-bottom: 20px;
+  border-color: #5bb346;
+  background-color: transparent;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 3px;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+.styles__number:hover button {
+  background-color: #5bb346;
+  cursor: pointer;
 }
