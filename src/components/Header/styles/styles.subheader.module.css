@@ -55,7 +55,7 @@
   cursor: pointer;
 }
 
-@media screen and (min-width: 400px) and (max-width: 2000px) {
+@media screen and (min-width: 400px) and (max-width: 4000px) {
   .styles__number {
     flex-direction: row;
   }
