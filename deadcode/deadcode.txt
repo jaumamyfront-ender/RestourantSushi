@@ -1,0 +1,104 @@
+      <div className={classes.header__navigation}>
+        <div className={classes.link__elements}>
+          <NavLink to="/#" className={classes.link__elements__styling}>
+            start
+          </NavLink>
+        </div>
+        <div className={classes.link__elements}>
+          <NavLink to="/#" className={classes.link__elements__styling}>
+            menu
+          </NavLink>
+        </div>
+        <div className={classes.navigation__image}>
+          {/* <Image
+            src={Logo}
+            alt="/"
+            width={226}
+            height={80}
+            className={classes.navigation__image}
+          /> */}
+        </div>
+        <div className={classes.link__elements}>
+          <NavLink to="/#" className={classes.link__elements__styling}>
+            dostawy
+          </NavLink>
+        </div>
+        <div className={classes.link__elements}>
+          <NavLink to="/#" className={classes.link__elements__styling}>
+            kontakt
+          </NavLink>
+        </div>
+      </div>
+      =================================================================
+      const UserMessage = (props) => {
+  let dialogsDataMessageUser = [
+    { id: 0, message: "i am your friend,bro,what are you thinking about this" },
+    { id: 1, message: "yoooooooooooooooooooooo" },
+  ];
+  let usermessagee = dialogsDataMessageUser.map((dialogggg) => (
+    <UserMessage message={dialogggg.message} />
+  ));
+  return (
+    <div className={`${classes.rightwrapper__items} ${classes.friend}`}>
+      <div className={classes.user__info}>
+        <div className={classes.user__picture}></div>
+
+        <div className={classes.user__name}>
+          <p>Andrey</p>
+        </div>
+      </div>
+
+      <div className={classes.user__message}>
+        <p>{props.message}</p>
+      </div>
+    </div>
+  );
+};
+export default UserMessage;
+===========================================================================
+let UserMessageBox = (props) => {
+  console.log(props);
+  let newbox = props.messages.map((dialogggg) => (
+    <Userbox object={dialogggg.messages} />
+  ));
+  return <div>{newbox}</div>;
+};
+
+let Userbox = (props) => {
+  return (
+    <div className={`${classes.rightwrapper__items} ${classes.friend}`}>
+      <div className={classes.user__info}>
+        <div className={classes.user__picture}></div>
+
+        <div className={classes.user__name}>
+          <p></p>
+        </div>
+      </div>
+
+      <div className={classes.user__message}>
+        <p>{props.object}</p>
+      </div>
+    </div>
+  );
+};
+export default UserMessageBox;
+=====================
+info={props.store.state.HeaderInfoContact}
+=====================
+    <div className={classes.container}>
+      <div className={`${classes.styles} ${classes.first}`}>
+        <h1>{props.title}</h1>
+        <p>
+          {props.street}
+          {props.city}
+        </p>
+      </div>
+      <div>
+        <p>{props.hours}</p>
+        <p>{props.days}</p>
+      </div>
+      <div>
+        <p>{props.number}</p>
+        <p>{props.documents}</p>
+      </div>
+    </div>
