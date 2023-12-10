@@ -1,7 +1,19 @@
 import React from "react";
 import classes from "../styles-content/styles-prszekaski.module.css";
+import foodImage from "../../../assests/content/przekaski/Yasay-Roll.jpg";
 
-export default function Prszekaski() {
+let Menu = (props) => {
+  let Przekaski = props.foodItems.map((newarray) => (
+    <BoxFood
+      NameFood={newarray.NameFood}
+      DescriptionFood={newarray.DescriptionFood}
+      PriceOfFood={newarray.PriceOfFood}
+    />
+  ));
+  return <div>{Przekaski}</div>;
+};
+
+let BoxFood = (props) => {
   return (
     <div className={classes.Containerr}>
       <div className={classes.title__menu}>
@@ -12,65 +24,20 @@ export default function Prszekaski() {
       <div className={classes.wrapper__menu}>
         <div className={classes.food__items}>
           <div className={classes.food__image}>
-            <img src="" alt="#" />
+            <img src={foodImage} alt="#" />
           </div>
-          <span className={classes.items__description_one}>YASAY ROLL</span>
-          <span className={classes.items__description_second}>14,30zl</span>
-          <span className={classes.items__description_third}>
-            świeże warzywa zawijane w papier ryżowy
+          <span className={classes.items__description_one}>
+            {props.NameFood}
           </span>
-        </div>
-        <div className={classes.food__items}>
-          <div className={classes.food__image}>
-            <img src="" alt="#" />
-          </div>
-          <span className={classes.items__description_one}>YASAY ROLL</span>
-          <span className={classes.items__description_second}>14,30zl</span>
-          <span className={classes.items__description_third}>
-            świeże warzywa zawijane w papier ryżowy
+          <span className={classes.items__description_second}>
+            {props.PriceOfFood}
           </span>
-        </div>
-        <div className={classes.food__items}>
-          <div className={classes.food__image}>
-            <img src="" alt="#" />
-          </div>
-          <span className={classes.items__description_one}>YASAY ROLL</span>
-          <span className={classes.items__description_second}>14,30zl</span>
           <span className={classes.items__description_third}>
-            świeże warzywa zawijane w papier ryżowy
-          </span>
-        </div>
-        <div className={classes.food__items}>
-          <div className={classes.food__image}>
-            <img src="" alt="#" />
-          </div>
-          <span className={classes.items__description_one}>YASAY ROLL</span>
-          <span className={classes.items__description_second}>14,30zl</span>
-          <span className={classes.items__description_third}>
-            świeże warzywa zawijane w papier ryżowy
-          </span>
-        </div>
-        <div className={classes.food__items}>
-          <div className={classes.food__image}>
-            <img src="" alt="#" />
-          </div>
-          <span className={classes.items__description_one}>YASAY ROLL</span>
-          <span className={classes.items__description_second}>14,30zl</span>
-          <span className={classes.items__description_third}>
-            świeże warzywa zawijane w papier ryżowy
-          </span>
-        </div>
-        <div className={classes.food__items}>
-          <div className={classes.food__image}>
-            <img src="" alt="#" />
-          </div>
-          <span className={classes.items__description_one}>YASAY ROLL</span>
-          <span className={classes.items__description_second}>14,30zl</span>
-          <span className={classes.items__description_third}>
-            świeże warzywa zawijane w papier ryżowy
+            {props.DescriptionFood}
           </span>
         </div>
       </div>
     </div>
   );
-}
+};
+export default Menu;

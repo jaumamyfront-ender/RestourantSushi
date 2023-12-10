@@ -33,12 +33,23 @@
   display: grid;
   grid-template-columns: 100px 500px;
   grid-template-rows: 35px 15px 35px;
+  color: azure;
 }
 .food__image {
   grid-row: 1/4;
+  width: 100%;
+}
+.food__image img {
+  object-fit: contain;
+  width: 90px;
+  height: 80px;
 }
 .items__description_second {
   grid-column: 2/3;
   grid-row: 2/3;
   justify-self: end;
+}
+.items__description_third {
+  font-size: 15px;
+  font-style: italic;
 }

@@ -8,7 +8,10 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 let gethteprops = (store) => {
   root.render(
     <React.StrictMode>
-      <App info={store.state.HeaderInfoContact} />
+      <App
+        info={store.state.HeaderInfoContact}
+        foodItems={store.state.FoodItemsPrzekaski}
+      />
     </React.StrictMode>
   );
 };

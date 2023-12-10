@@ -7,7 +7,7 @@ function App(props) {
   return (
     <div>
       <Header info={props.info} />
-      <Content />
+      <Content foodItems={props.foodItems} />
     </div>
   );
 }
