@@ -10,7 +10,7 @@
 .TitleImageTableDishes {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+
   margin-right: 2%;
 }
 .TitleImageTableDishes h1 {

@@ -2,25 +2,25 @@ import React from "react";
 import classes from "./styles/styles.subheader.module.css";
 import AcrobatLogo from "../../assests/header/acrobat-reader.png";
 export default function SubHeader(props) {
-  let receivedData = props.info.map((newarray) => (
+  const receivedData = props.info.map((item) => (
     <div className={classes.container}>
       <div className={classes.styles__info}>
-        <h1>{newarray.title}</h1>
+        <h1>{item.title}</h1>
         <p>
-          {newarray.street} {newarray.city}
+          {item.street} {item.city}
         </p>
       </div>
       <div className={`${classes.styles__info} ${classes.first}`}>
-        <span>{newarray.hoursEnter}</span>
-        <span>{newarray.hours}</span>
-        <span>{newarray.days}</span>
+        <span>{item.hoursEnter}</span>
+        <span>{item.hours}</span>
+        <span>{item.days}</span>
       </div>
       <div className={classes.styles__number}>
-        <button>{newarray.numberOne}</button>
-        <button>{newarray.numberSecond}</button>
+        <button>{item.numberOne}</button>
+        <button>{item.numberSecond}</button>
         <button>
           <img src={AcrobatLogo} alt="/" />
-          {newarray.documents}
+          {item.documents}
         </button>
       </div>
     </div>

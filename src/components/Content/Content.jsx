@@ -22,6 +22,16 @@ export default function Content(props) {
         GeneralFoodSecondBlock={props.GeneralFoodSecondBlock}
         GeneralFoodThirdBlock={props.GeneralFoodThirdBlock}
       />
+      <GeneralDishesOne
+        GeneralFood={props.GeneralFood}
+        GeneralFoodSecondBlock={props.GeneralFoodSecondBlock}
+        GeneralFoodThirdBlock={props.GeneralFoodThirdBlock}
+      />
+      <GeneralDishesOne
+        GeneralFood={props.GeneralFood}
+        GeneralFoodSecondBlock={props.GeneralFoodSecondBlock}
+        GeneralFoodThirdBlock={props.GeneralFoodThirdBlock}
+      />
     </div>
   );
 }
