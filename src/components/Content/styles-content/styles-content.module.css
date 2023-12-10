@@ -1,0 +1,31 @@
+.Wrapper__Content {
+  display: flex;
+  flex-direction: column;
+}
+
+.Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title__menu h1 {
+  color: green;
+  font-weight: 700;
+  font-size: 3vw;
+  text-transform: uppercase;
+  text-align: center;
+}
+.title__menu h2 {
+  color: green;
+  font-size: 2vw;
+  text-transform: uppercase;
+  text-align: center;
+}
+@media screen and (min-width: 1200px) and (max-width: 4500px) {
+  .title__menu h1 {
+    font-size: 2rem;
+  }
+  .title__menu h2 {
+    font-size: 1rem;
+  }
+}

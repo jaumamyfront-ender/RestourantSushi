@@ -12,7 +12,7 @@
 }
 .styles__info h1 {
   color: #5bb346;
-  font-size: 3vh;
+  /* font-size: 3vh; */
   line-height: 60px;
   font-weight: 700;
   letter-spacing: 1px;
