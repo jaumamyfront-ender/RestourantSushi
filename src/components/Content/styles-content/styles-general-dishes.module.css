@@ -58,9 +58,9 @@
   width: 100%;
   display: grid;
   grid-template-columns: 99%;
-  grid-template-rows: repeat(10, 70px);
-  grid-auto-rows: 250px;
-  grid-auto-columns: 500px;
+  grid-template-rows: repeat(4, 75px);
+  grid-auto-rows: 75px;
+  grid-auto-columns: 99%;
   justify-items: center;
   justify-self: center;
 }
