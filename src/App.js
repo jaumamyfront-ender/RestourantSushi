@@ -4,10 +4,16 @@ import Header from "./components/Header/header.jsx";
 import Content from "./components/Content/Content.jsx";
 import classes from "./App.css";
 function App(props) {
+  console.log(props);
   return (
     <div className={classes.General__Styles}>
       <Header info={props.info} />
-      <Content foodItems={props.foodItems} GeneralFood={props.GeneralFood} />
+      <Content
+        foodItems={props.foodItems}
+        GeneralFood={props.GeneralFood}
+        GeneralFoodSecondBlock={props.GeneralFoodSecondBlock}
+        GeneralFoodThirdBlock={props.GeneralFoodThirdBlock}
+      />
     </div>
   );
 }

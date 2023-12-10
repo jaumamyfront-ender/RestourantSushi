@@ -47,47 +47,81 @@ let store = {
     ],
     GeneralFoodFirstBlock: [
       {
-        NameFood: "YASSAY ROLL",
+        NameFood: "EBI TEMPURA",
         DescriptionFood: "świeże warzywa zawijane w papier ryżowy",
         PriceOfFood: "14,30zl",
       },
       {
-        NameFood: "YASSAY ROLL",
+        NameFood: "MIX TEMPURA",
         DescriptionFood: "świeże warzywa zawijane w papier ryżowy",
         PriceOfFood: "14,30zl",
       },
       {
-        NameFood: "YASSAY ROLL",
+        NameFood: "YASAI TEMPURA",
+        DescriptionFood: "świeże warzywa zawijane w papier ryżowy",
+        PriceOfFood: "14,30zl",
+      },
+    ],
+    GeneralFoodSecondBlock: [
+      {
+        NameFood: "EBI TEMPURA",
         DescriptionFood: "świeże warzywa zawijane w papier ryżowy",
         PriceOfFood: "14,30zl",
       },
       {
-        NameFood: "YASSAY ROLL",
+        NameFood: "MIX TEMPURA",
         DescriptionFood: "świeże warzywa zawijane w papier ryżowy",
         PriceOfFood: "14,30zl",
       },
       {
-        NameFood: "YASSAY ROLL",
+        NameFood: "YASAI TEMPURA",
+        DescriptionFood: "świeże warzywa zawijane w papier ryżowy",
+        PriceOfFood: "14,30zl",
+      },
+    ],
+    GeneralFoodThirdBlock: [
+      {
+        NameFood: "EBI TEMPURA",
         DescriptionFood: "świeże warzywa zawijane w papier ryżowy",
         PriceOfFood: "14,30zl",
       },
       {
-        NameFood: "YASSAY ROLL",
+        NameFood: "MIX TEMPURA",
         DescriptionFood: "świeże warzywa zawijane w papier ryżowy",
         PriceOfFood: "14,30zl",
       },
       {
-        NameFood: "YASSAY ROLL",
+        NameFood: "YASAI TEMPURA",
         DescriptionFood: "świeże warzywa zawijane w papier ryżowy",
         PriceOfFood: "14,30zl",
       },
       {
-        NameFood: "YASSAY ROLL",
+        NameFood: "MIX TEMPURA",
         DescriptionFood: "świeże warzywa zawijane w papier ryżowy",
         PriceOfFood: "14,30zl",
       },
       {
-        NameFood: "YASSAY ROLL",
+        NameFood: "YASAI TEMPURA",
+        DescriptionFood: "świeże warzywa zawijane w papier ryżowy",
+        PriceOfFood: "14,30zl",
+      },
+      {
+        NameFood: "MIX TEMPURA",
+        DescriptionFood: "świeże warzywa zawijane w papier ryżowy",
+        PriceOfFood: "14,30zl",
+      },
+      {
+        NameFood: "YASAI TEMPURA",
+        DescriptionFood: "świeże warzywa zawijane w papier ryżowy",
+        PriceOfFood: "14,30zl",
+      },
+      {
+        NameFood: "MIX TEMPURA",
+        DescriptionFood: "świeże warzywa zawijane w papier ryżowy",
+        PriceOfFood: "14,30zl",
+      },
+      {
+        NameFood: "YASAI TEMPURA",
         DescriptionFood: "świeże warzywa zawijane w papier ryżowy",
         PriceOfFood: "14,30zl",
       },

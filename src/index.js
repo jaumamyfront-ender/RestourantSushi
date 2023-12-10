@@ -6,12 +6,16 @@ import reportWebVitals from "./reportWebVitals";
 import store from "./redux/state.jsx";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 let gethteprops = (store) => {
+  console.log(store);
+
   root.render(
     <React.StrictMode>
       <App
         info={store.state.HeaderInfoContact}
         foodItems={store.state.FoodItemsPrzekaski}
         GeneralFood={store.state.GeneralFoodFirstBlock}
+        GeneralFoodSecondBlock={store.state.GeneralFoodSecondBlock}
+        GeneralFoodThirdBlock={store.state.GeneralFoodThirdBlock}
       />
     </React.StrictMode>
   );

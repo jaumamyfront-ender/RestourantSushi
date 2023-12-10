@@ -1,12 +1,16 @@
 .Wrapper__Content {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
 }
 
 .Container {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-items: center;
 }
 .title__menu h1 {
   color: green;

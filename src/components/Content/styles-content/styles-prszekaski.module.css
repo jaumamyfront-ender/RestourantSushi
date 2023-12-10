@@ -38,7 +38,7 @@
 }
 @media screen and (min-width: 200px) and (max-width: 1500px) {
   .wrapper__menu {
-    grid-template-columns: 1fr;
+    grid-template-columns: 500px;
     grid-template-rows: repeat(6, 1fr);
     row-gap: 20px;
   }
@@ -54,8 +54,8 @@
 @media screen and (min-width: 200px) and (max-width: 500px) {
   .food__items {
     display: grid;
-    grid-template-columns: 100px 220px;
-    grid-template-rows: 25px 15px 35px;
+    grid-template-columns: 100px 270px;
+    grid-template-rows: 25px 17px 45px;
     color: azure;
     font-size: 3vw;
   }

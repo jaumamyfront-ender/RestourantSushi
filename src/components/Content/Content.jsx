@@ -4,6 +4,7 @@ import Prszekaski from "./sub-components-content/Prszekaski";
 import GeneralDishesOne from "./sub-components-content/sub-component-general-dishes_one";
 
 export default function Content(props) {
+  console.log(props);
   return (
     <div className={classes.Wrapper__Content}>
       <div className={classes.Container}>
@@ -16,7 +17,11 @@ export default function Content(props) {
           <Prszekaski foodItems={props.foodItems} />
         </div>
       </div>
-      <GeneralDishesOne GeneralFood={props.GeneralFood} />
+      <GeneralDishesOne
+        GeneralFood={props.GeneralFood}
+        GeneralFoodSecondBlock={props.GeneralFoodSecondBlock}
+        GeneralFoodThirdBlock={props.GeneralFoodThirdBlock}
+      />
     </div>
   );
 }
