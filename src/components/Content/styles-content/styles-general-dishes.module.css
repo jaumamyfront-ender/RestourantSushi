@@ -1,16 +1,20 @@
 .wrapper__dishes {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-items: center;
-  max-width: 80%;
+  max-width: 100%;
   align-self: center;
   margin-top: 2%;
   flex-wrap: wrap;
 }
+.container__food {
+  display: flex;
+}
 .TitleAndImageDishes {
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
 }
 .TitleAndImageDishes span {
   color: green;
@@ -20,13 +24,19 @@
   text-align: center;
 }
 .TitleAndImageDishes img {
+}
+.imageDishe {
+  max-width: 100%;
+  height: auto;
+}
+.ImageDishe img {
   width: 400px;
   height: 250px;
   margin-right: 25px;
 }
 .food__items {
   display: grid;
-  grid-template-columns: 100px 500px;
+  grid-template-columns: 100px 280px;
   grid-template-rows: 35px 15px 35px;
   color: azure;
   border-bottom: 1px dashed #ccc;
@@ -51,14 +61,16 @@
   font-style: italic;
 }
 .wrapper__menu {
-  width: 80%;
-  /* height: 300px; */
+  width: 100%;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-auto-rows: 0px;
-  grid-auto-columns: 0px;
+  grid-template-columns: 30% 30% 30%;
+  grid-template-rows: repeat(3, 30%);
+  grid-auto-rows: 250px;
+  grid-auto-columns: 500px;
   grid-auto-flow: column;
   justify-items: center;
-  column-gap: 5%;
+  column-gap: 3%;
+  justify-self: center;
+}
+@media screen and (min-width: 200px) and (max-width: 1300px) {
 }

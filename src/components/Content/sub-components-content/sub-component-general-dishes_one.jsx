@@ -7,25 +7,34 @@ export default function GeneralDishesOne(props) {
   console.log(props);
   return (
     <div className={classes.wrapper__dishes}>
-      <div className={classes.TitleAndImageDishes}>
-        <span>tempura</span>
-        <img src={Tempura} alt="/" />
+      <div className={classes.container__food}>
+        <div className={classes.TitleAndImageDishes}>
+          <span>tempura</span>
+          <div className={classes.ImageDishe}>
+            <img src={Tempura} alt="/" />
+          </div>
+        </div>
+        <div className={classes.TitleAndImageDishes}>
+          <span>tempura</span>
+          <div className={classes.ImageDishe}>
+            <img src={Tempura} alt="/" />
+          </div>
+        </div>
+        <div className={classes.TitleAndImageDishes}>
+          <span>tempura</span>
+          <div className={classes.ImageDishe}>
+            <img src={Tempura} alt="/" />
+          </div>
+        </div>
       </div>
-      <div className={classes.TitleAndImageDishes}>
-        <span>tempura</span>
-        <img src={Tempura} alt="/" />
-      </div>
-      <div className={classes.TitleAndImageDishes}>
-        <span>tempura</span>
-        <img src={Tempura} alt="/" />
-      </div>
-      {elementsfood};
+
+      <Elementsfood GeneralFood={props.GeneralFood} />
     </div>
   );
 }
 
-let elementsfood = (props) => {
-  let newelements = props.foodItems.map((newarray) => (
+let Elementsfood = (props) => {
+  let newelements = props.GeneralFood.map((newarray) => (
     <div className={classes.food__items}>
       <div className={classes.food__image}>
         <img src={foodImage} alt="#" />

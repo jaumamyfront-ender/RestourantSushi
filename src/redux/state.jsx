@@ -45,6 +45,53 @@ let store = {
         PriceOfFood: "14,30zl",
       },
     ],
+    GeneralFoodFirstBlock: [
+      {
+        NameFood: "YASSAY ROLL",
+        DescriptionFood: "świeże warzywa zawijane w papier ryżowy",
+        PriceOfFood: "14,30zl",
+      },
+      {
+        NameFood: "YASSAY ROLL",
+        DescriptionFood: "świeże warzywa zawijane w papier ryżowy",
+        PriceOfFood: "14,30zl",
+      },
+      {
+        NameFood: "YASSAY ROLL",
+        DescriptionFood: "świeże warzywa zawijane w papier ryżowy",
+        PriceOfFood: "14,30zl",
+      },
+      {
+        NameFood: "YASSAY ROLL",
+        DescriptionFood: "świeże warzywa zawijane w papier ryżowy",
+        PriceOfFood: "14,30zl",
+      },
+      {
+        NameFood: "YASSAY ROLL",
+        DescriptionFood: "świeże warzywa zawijane w papier ryżowy",
+        PriceOfFood: "14,30zl",
+      },
+      {
+        NameFood: "YASSAY ROLL",
+        DescriptionFood: "świeże warzywa zawijane w papier ryżowy",
+        PriceOfFood: "14,30zl",
+      },
+      {
+        NameFood: "YASSAY ROLL",
+        DescriptionFood: "świeże warzywa zawijane w papier ryżowy",
+        PriceOfFood: "14,30zl",
+      },
+      {
+        NameFood: "YASSAY ROLL",
+        DescriptionFood: "świeże warzywa zawijane w papier ryżowy",
+        PriceOfFood: "14,30zl",
+      },
+      {
+        NameFood: "YASSAY ROLL",
+        DescriptionFood: "świeże warzywa zawijane w papier ryżowy",
+        PriceOfFood: "14,30zl",
+      },
+    ],
   },
 };
 export default store;

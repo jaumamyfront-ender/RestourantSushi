@@ -16,7 +16,7 @@ export default function Content(props) {
           <Prszekaski foodItems={props.foodItems} />
         </div>
       </div>
-      <GeneralDishesOne foodItems={props.foodItems} />
+      <GeneralDishesOne GeneralFood={props.GeneralFood} />
     </div>
   );
 }

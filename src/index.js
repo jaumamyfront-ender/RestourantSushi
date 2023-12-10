@@ -11,6 +11,7 @@ let gethteprops = (store) => {
       <App
         info={store.state.HeaderInfoContact}
         foodItems={store.state.FoodItemsPrzekaski}
+        GeneralFood={store.state.GeneralFoodFirstBlock}
       />
     </React.StrictMode>
   );
