@@ -2,6 +2,7 @@ import "./App.css";
 import React from "react";
 import Header from "./components/Header/header.jsx";
 import Content from "./components/Content/Content.jsx";
+import Footer from "./components/Footer/Footer.jsx";
 import classes from "./App.css";
 function App(props) {
   console.log(props);
@@ -14,6 +15,7 @@ function App(props) {
         GeneralFoodSecondBlock={props.GeneralFoodSecondBlock}
         GeneralFoodThirdBlock={props.GeneralFoodThirdBlock}
       />
+      <Footer />
     </div>
   );
 }
