@@ -1,9 +1,13 @@
 import React from "react";
 import classes from "./styles-footer.module.css";
+import Delivery from "../../assests/footer/obszar-dostawy.jpg.webp";
 
 export default function Footer() {
   return (
     <div className={classes.container}>
+      <div className={classes.AreaMapDelivery}>
+        <img src={Delivery} alt="" />
+      </div>
       <h1>kontakt</h1>
       <div className={classes.wrapper}>
         <div className={classes.items__footer}>

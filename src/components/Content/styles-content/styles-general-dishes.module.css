@@ -3,7 +3,7 @@
   flex-direction: row;
   margin-top: 1%;
   flex-wrap: wrap;
-  width: 100%;
+  width: 107%;
   justify-content: center;
 }
 
@@ -64,5 +64,21 @@
   justify-items: center;
   justify-self: center;
 }
-@media screen and (min-width: 200px) and (max-width: 1300px) {
+@media screen and (min-width: 200px) and (max-width: 460px) {
+  .food__items {
+    grid-template-columns: minmax(100px, 350px);
+    grid-template-rows: minmax(5px, 35px) minmax(5px, 35px) minmax(5px, 35px);
+  }
+  .wrapper__menu {
+    grid-template-columns: minmax(100px, 280px);
+    grid-template-rows: minmax(20px, 75px);
+    margin-left: 14%;
+  }
+  .TitleImageTableDishes h1 {
+    font-size: 20px;
+    padding-top: 15%;
+  }
+  .items__description_third {
+    font-size: 13px;
+  }
 }

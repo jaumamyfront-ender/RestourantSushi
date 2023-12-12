@@ -38,7 +38,7 @@
 }
 @media screen and (min-width: 200px) and (max-width: 1500px) {
   .wrapper__menu {
-    grid-template-columns: 500px;
+    grid-template-columns: 600px;
     grid-template-rows: repeat(6, 1fr);
     row-gap: 20px;
   }
@@ -58,5 +58,20 @@
     grid-template-rows: 25px 17px 45px;
     color: azure;
     font-size: 3vw;
+  }
+}
+@media screen and (min-width: 200px) and (max-width: 440px) {
+  .food__items {
+    grid-template-columns: 100px 200px;
+    grid-template-rows: 15px 13px 30px;
+    margin-bottom: 0px;
+    font-size: 3vw;
+  }
+  .items__description_third {
+    font-size: 12px;
+    font-style: italic;
+  }
+  .wrapper__menu {
+    row-gap: 3%;
   }
 }

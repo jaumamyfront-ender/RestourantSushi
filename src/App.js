@@ -7,7 +7,7 @@ import classes from "./App.css";
 function App(props) {
   console.log(props);
   return (
-    <div className={classes.General__Styles}>
+    <div className="general__styles">
       <Header info={props.info} />
       <Content
         foodItems={props.foodItems}

@@ -3,6 +3,7 @@ import classes from "../styles-content/styles-general-dishes.module.css";
 import Tempura from "../../../assests/content/generalDishesOne/tempura.jpg.webp";
 
 export default function GeneralDishesOne(props) {
+  console.log(props);
   return (
     <div className={classes.wrapper__dishes}>
       <div className={classes.TitleImageTableDishes}>
